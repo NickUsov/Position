@@ -27,7 +27,7 @@ header{
     color: gray;
     font-size: 60px;
     letter-spacing: 7px;
-    margin-top: -35px;
+    margin-top: -36px;
 }
 
 .left_block{
@@ -66,13 +66,42 @@ p{
 }
 .right_block{
     width: 35%;
-    height: 35vh;
-    border: 1px dashed gray;
+    height: 50vh;
     float: right;
 }
 .rectangle{
     background: gray;
     height: 30px;
     border-bottom: 1px solid black;
+
+}
+div > .rectangle{
     border-left: 1px solid black;
+}
+.news{
+    margin-bottom: 20px;
+}
+.h_news{
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-bottom: 0;
+}
+.p_news{
+    width: 240px;
+    margin-top: -16px;
+    margin-left:-20px;
+}
+footer{
+    clear: both;
+    border-top: 1px solid black;
+}
+footer>.rectangle
+{
+    width: 500px;
+    border-right: 1px solid black;
+}
+.maker{
+    margin-top: -40px;
+    margin-right: 360px;
+    float: right;
 }
