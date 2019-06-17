@@ -3,10 +3,10 @@
 }
 .body{
     border: 1px solid black;
-    height: 90vh;
+    height: 650px;
 }
 header{
-    height: 20vh;
+    height: 150px;
     border-bottom: 1px solid black;
 }
 .logo_circle{
@@ -56,6 +56,7 @@ h2{
 .central_block{
     /*border: 1px solid gray;*/
     width: 40%;
+    height: 300px;
     padding-top: 60px;
     font-size: 18px;
     float: left;
@@ -82,7 +83,7 @@ div > .rectangle{
     margin-bottom: 20px;
 }
 .h_news{
-    margin-top: 20px;
+    margin-top: 30px;
     margin-left: 10px;
     margin-bottom: 0;
 }
